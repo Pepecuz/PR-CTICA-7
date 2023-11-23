@@ -1,3 +1,9 @@
+// Materia: Programación I, Paralelo 1
+// Autor: Jose Maria Cruz Llanos
+// Fecha creación: 16/10/2023
+// Fecha modificación: 22/11/2023
+// Número de ejericio: 1
+// Problema planteado: *******
 #include <iostream>
 #include <fstream>
 #include <cstring>
