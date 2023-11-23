@@ -46,7 +46,7 @@ void ingresarEquipos()
 
     if (equipoExistente)
     {
-        cout << "¡Error! El equipo ya existe." << endl;
+        cout << "Â¡Error! El equipo ya existe." << endl;
         return;
     }
 
@@ -56,7 +56,7 @@ void ingresarEquipos()
     cout << "Ingrese el departamento: ";
     cin.getline(equipo.departamento, 30);
 
-    cout << "Ingrese el año de creacion: ";
+    cout << "Ingrese el aÃ±o de creacion: ";
     cin >> equipo.anioCreacion;
 
     archivoEquipos.write(reinterpret_cast<const char*>(&equipo), sizeof(structEquiposLPFB));
@@ -72,7 +72,7 @@ void ingresarResultados()
 
     if (!archivoEquipos)
     {
-        cout << "¡Error! Primero debe ingresar los equipos." << endl;
+        cout << "Â¡Error! Primero debe ingresar los equipos." << endl;
         return;
     }
 
@@ -98,7 +98,7 @@ void ingresarResultados()
 
     if (!equipoLocalExistente)
     {
-        cout << "¡Error! El equipo local no existe." << endl;
+        cout << "Â¡Error! El equipo local no existe." << endl;
         return;
     }
 
@@ -119,7 +119,7 @@ void ingresarResultados()
 
     if (!equipoVisitanteExistente)
     {
-        cout << "¡Error! El equipo visitante no existe." << endl;
+        cout << "Â¡Error! El equipo visitante no existe." << endl;
         return;
     }
 
@@ -147,7 +147,7 @@ void mostrarTablaPosiciones()
 
     if (!archivoEquipos)
     {
-        cout << "¡Error! Primero debe ingresar los equipos." << endl;
+        cout << "Â¡Error! Primero debe ingresar los equipos." << endl;
         return;
     }
 
@@ -155,7 +155,7 @@ void mostrarTablaPosiciones()
 
     if (!archivoResultados)
     {
-        cout << "¡Error! Primero debe ingresar los resultados." << endl;
+        cout << "Â¡Error! Primero debe ingresar los resultados." << endl;
         return;
     }
 
